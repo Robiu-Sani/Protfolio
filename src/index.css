@@ -1,3 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=New+Amsterdam&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* font-family: "Josefin Sans", sans-serif; */
+* {
+  /* font-family: "Bungee Tint", sans-serif; */
+  /* font-family: "Josefin Sans", sans-serif; */
+  /* font-family: "New Amsterdam", sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s;
+}
+.BungeeTint {
+  font-family: "Bungee Tint", sans-serif;
+}
+.NewAmsterdam {
+  font-family: "New Amsterdam", sans-serif;
+}
+.homeNav > .active {
+  background: transparent !important;
+  font-weight: bold !important;
+  color: rgb(255, 145, 1) !important;
+}
+.rotate {
+  animation: rotation infinite 3s;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

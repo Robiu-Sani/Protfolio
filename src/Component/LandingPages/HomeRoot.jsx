@@ -4,7 +4,7 @@ import Footer from "../DefaultComponent/Footer";
 
 export default function HomeRoot() {
   return (
-    <div className="w-full">
+    <div className="w-full relative">
       <NavBar></NavBar>
       <Outlet></Outlet>
       <Footer></Footer>

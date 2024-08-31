@@ -1,28 +1,31 @@
 import { NavLink } from "react-router-dom";
+import Logo from "../../images/logo.png";
+import Button from "../ShaireComponent/Button";
+import { TiDownloadOutline } from "react-icons/ti";
 
 export default function NavBar() {
   const navItem = (
     <>
-      <li>
+      <li className="homeNav">
         <NavLink to={"/"}>Home</NavLink>
       </li>
-      <li>
+      <li className="homeNav">
         <NavLink to={"/about"}>About</NavLink>
       </li>
-      <li>
+      <li className="homeNav">
         <NavLink to={"/project"}>Project</NavLink>
       </li>
-      <li>
+      <li className="homeNav">
         <NavLink to={"/skills"}>Skills</NavLink>
       </li>
-      <li>
+      <li className="homeNav">
         <NavLink to={"/contact"}>Contact</NavLink>
       </li>
     </>
   );
 
   return (
-    <div className="w-full">
+    <div className="w-full fixed top-0">
       <div className="navbar container mx-auto bg-[#0000]">
         <div className="navbar-start">
           <div className="dropdown">
@@ -49,13 +52,16 @@ export default function NavBar() {
               {navItem}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <div className="flex justify-start items-center gap-2">
+            <img src={Logo} alt="webLogo" className="h-[40px]" />
+            <h3 className="font-bold text-xl">WebWeaver</h3>
+          </div>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navItem}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <Button icon={<TiDownloadOutline />} text="Resume"></Button>
         </div>
       </div>
     </div>
