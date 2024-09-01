@@ -11,6 +11,9 @@
   font-family: Arial, Helvetica, sans-serif;
   transition: 0.3s;
 }
+.JosefinSans {
+  font-family: "Josefin Sans", sans-serif;
+}
 .BungeeTint {
   font-family: "Bungee Tint", sans-serif;
 }
@@ -34,5 +37,11 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .Name {
+    display: none;
   }
 }

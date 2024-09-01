@@ -25,7 +25,7 @@ export default function NavBar() {
   );
 
   return (
-    <div className="w-full fixed top-0">
+    <div className="w-full fixed top-0 z-50">
       <div className="navbar container mx-auto bg-[#0000]">
         <div className="navbar-start">
           <div className="dropdown">
@@ -54,7 +54,7 @@ export default function NavBar() {
           </div>
           <div className="flex justify-start items-center gap-2">
             <img src={Logo} alt="webLogo" className="h-[40px]" />
-            <h3 className="font-bold text-xl">WebWeaver</h3>
+            <h3 className="font-bold text-xl Name">WebWeaver</h3>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
