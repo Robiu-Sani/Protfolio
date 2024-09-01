@@ -7,12 +7,18 @@ export default function Banner() {
   return (
     <div className=" min-h-screen flex justify-center items-center relative">
       <div className="w-full absolute top-0 h-full flex flex-col">
-        <div className="w-full h-[50%]"></div>
+        <div
+          className="w-full h-[50%]"
+          style={{
+            backgroundImage:
+              "linear-gradient(180deg, transparent, transparent, transparent,#a6acb64f)",
+          }}
+        ></div>
         <div
           className="w-full h-[50%]  "
           style={{
             backgroundImage:
-              "linear-gradient(180deg, #a6acb64f, transparent, transparent, transparent)",
+              "linear-gradient(180deg, #a6acb55b, transparent, transparent, transparent)",
           }}
         ></div>
       </div>

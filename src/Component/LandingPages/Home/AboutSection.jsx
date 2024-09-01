@@ -1,3 +1,4 @@
+import { GiRead } from "react-icons/gi";
 import image from "../../../images/profile.png";
 import Button from "../../ShaireComponent/Button";
 
@@ -14,7 +15,12 @@ export default function AboutSection() {
               className="border p-2"
               style={{ boxShadow: "inset 1px 1px 11px 0px #cacaca" }}
             >
-              <img src={image} alt="Robius Sani (Mubarok)" className="w-full" />
+              <img
+                src={image}
+                alt="Robius Sani (Mubarok)"
+                className="w-full"
+                style={{ boxShadow: "2px 2px 6px 0px #bfbfbf" }}
+              />
             </div>
           </div>
         </div>
@@ -46,7 +52,11 @@ export default function AboutSection() {
             contribute to meaningful projects and learn from others...
           </p>
           <div className="w-full flex justify-start">
-            <Button path="/about" text="Read more..."></Button>
+            <Button
+              icon={<GiRead />}
+              path="/about"
+              text="Read more..."
+            ></Button>
           </div>
         </div>
       </div>
