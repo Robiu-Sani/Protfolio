@@ -6,6 +6,7 @@ import About from "../LandingPages/About/About";
 import Projects from "../LandingPages/Projects/Projects";
 import Skills from "../LandingPages/Skills/Skills";
 import Contact from "../LandingPages/Contact/Contact";
+import Test from "../Test";
 
 export const router = createBrowserRouter([
   {
@@ -34,5 +35,9 @@ export const router = createBrowserRouter([
         element: <Contact></Contact>,
       },
     ],
+  },
+  {
+    path: "/test",
+    element: <Test></Test>,
   },
 ]);
