@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Button({ path, icon, text }) {
   return (
     <Link
-      to={path ? path : "/"}
+      to={path ? path : "#"}
       className="p-[2px] bg-gray-50 shadow-sm rounded-md overflow-hidden relative flex justify-center items-center"
     >
       <div className="w-[120%] absolute h-[70%] grid grid-cols-2 rotate">

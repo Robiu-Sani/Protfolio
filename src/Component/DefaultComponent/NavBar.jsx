@@ -61,7 +61,11 @@ export default function NavBar() {
           <ul className="menu menu-horizontal px-1">{navItem}</ul>
         </div>
         <div className="navbar-end">
-          <Button icon={<TiDownloadOutline />} text="Resume"></Button>
+          <Button
+            path="/resume"
+            icon={<TiDownloadOutline />}
+            text="Resume"
+          ></Button>
         </div>
       </div>
     </div>

@@ -42,10 +42,11 @@ export default function Banner() {
           to life.
         </p>
         <div className=" flex flex-wrap justify-center items-center gap-5 mt-5">
-          <div className="overflow-hidden  w-[210px] shadow-md rounded-md">
+          <div className="overflow-hidden   shadow-md rounded-md">
             <Button
+              path={"/resume"}
               icon={<TiDownloadOutline />}
-              text="Download Resume"
+              text=" Resume"
             ></Button>
           </div>
           <Link

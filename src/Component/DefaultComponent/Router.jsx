@@ -7,6 +7,7 @@ import Projects from "../LandingPages/Projects/Projects";
 import Skills from "../LandingPages/Skills/Skills";
 import Contact from "../LandingPages/Contact/Contact";
 import Test from "../Test";
+import Resume from "../LandingPages/Resume/Resume";
 
 export const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ export const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "/resume",
+        element: <Resume></Resume>,
       },
       {
         path: "/about",
