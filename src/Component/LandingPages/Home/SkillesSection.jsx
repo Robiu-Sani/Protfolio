@@ -25,7 +25,7 @@ import { GiTargetArrows } from "react-icons/gi";
 export default function SkillesSection() {
   return (
     <section className="py-12 bg-gray-100">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-2">
         <h2 className="text-4xl JosefinSans font-bold text-center text-gray-800 mb-8">
           My Skills
         </h2>
@@ -168,7 +168,7 @@ export default function SkillesSection() {
               PHP
             </h3>
           </div>
-          <span></span>
+          <span className="hidden lg:block"></span>
 
           {/* WordPress */}
           <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">

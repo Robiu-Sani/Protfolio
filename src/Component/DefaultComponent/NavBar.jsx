@@ -53,7 +53,7 @@ export default function NavBar() {
             </ul>
           </div>
           <div className="flex justify-start items-center gap-2">
-            <img src={Logo} alt="webLogo" className="h-[40px]" />
+            <img src={Logo} alt="webLogo" className="rounded-full h-[40px]" />
             <h3 className="font-bold text-xl Name">WebWeaver</h3>
           </div>
         </div>

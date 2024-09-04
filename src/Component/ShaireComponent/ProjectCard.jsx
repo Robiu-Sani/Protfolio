@@ -1,45 +1,56 @@
+import { useState } from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 export default function ProjectCard(props) {
-  const {
-    image1,
-    image2,
-    ProjectName,
-    description,
-    technology,
-    liveLink,
-    gitHub,
-  } = props.data;
+  const { image1, ProjectName, description, technology, liveLink, gitHub } =
+    props.data;
+
+  // State to track if the full description is displayed
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  // Function to toggle the description view
+  const toggleDescription = () => {
+    setIsExpanded(!isExpanded);
+  };
+
+  // Truncate the description to 10 words
+  const truncatedDescription = description.split(" ").slice(0, 10).join(" ");
 
   return (
-    <div className="w-full border shadow-md rounded-md grid grid-cols-1 md:grid-cols-2 gap-3 overflow-hidden">
-      <div className="w-full grid grid-cols-1 min-h-[200px]">
+    <div className="w-full border shadow-md rounded-md grid grid-cols-1 gap-3 overflow-hidden">
+      <div className="w-full grid grid-cols-1">
         <img
           src={image1}
           alt={`${ProjectName} screenshot 1`}
-          className="w-full h-full object-cover"
-        />
-        <img
-          src={image2}
-          alt={`${ProjectName} screenshot 2`}
-          className="w-full h-full object-cover"
+          className="w-full object-cover"
         />
       </div>
-      <div className="w-full flex flex-col justify-between p-4">
-        <h1 className="text-2xl font-bold JosefinSans mb-2">{ProjectName}</h1>
-        <p className="text-sm JosefinSans mb-4">{description}</p>
+      <div className="w-full flex flex-col justify-between p-2">
+        <h1 className="text-xl font-bold JosefinSans mb-2">{ProjectName}</h1>
+        <p className="text-sm JosefinSans mb-4">
+          <strong>Description : </strong>
+          {isExpanded ? description : truncatedDescription + "... "}
+          <button
+            onClick={toggleDescription}
+            className="text-blue-600 hover:underline"
+          >
+            {isExpanded ? "Show less" : "Read more"}
+          </button>
+        </p>
         <hr className="mb-3" />
-        <div className="w-full flex flex-wrap gap-2 mb-4">
+        <div className="w-full flex flex-wrap gap-1 mb-4">
+          <strong className="text-[11px]"> Technology : </strong>
           {technology.map((item, idx) => (
             <span
-              className="text-sm p-1 px-2 rounded-md bg-gray-200 flex items-center"
+              className="text-[10px] p-0 px-2 rounded-sm bg-gray-200 flex items-center"
               key={idx}
             >
               {item}
             </span>
           ))}
         </div>
-        <div className="w-full flex justify-between items-center">
+        <hr />
+        <div className="w-full mt-2 flex justify-between items-center">
           <a
             href={gitHub}
             target="_blank"
