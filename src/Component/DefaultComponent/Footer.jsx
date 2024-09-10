@@ -1,45 +1,104 @@
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import Logo from "../../images/logo.png";
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-gray-800 text-gray-200 py-6">
-      <div className="container mx-auto text-center">
-        <div className="flex justify-center mb-4">
-          <a
-            href="https://github.com/Robiu-Sani"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mx-2 text-gray-200 hover:text-white"
-          >
-            <FaGithub size={30} />
+    <div className="w-full bg-base-200">
+      <footer className="footer grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 container mx-auto bg-base-200 text-base-content p-10">
+        <nav>
+          <div className="flex justify-start items-center gap-2">
+            <img src={Logo} alt="webLogo" className="rounded-full h-[40px]" />
+            <h3 className="font-bold text-xl Name JosefinSans">WebWeaver</h3>
+          </div>
+          <p className="my-3 JosefinSans">
+            My name is Robius Sani. I`m a passionate full-stack web developer
+            with a keen interest in web technologies. I enjoy learning and
+            applying new skills, and I`m always up for a challenge.
+          </p>
+        </nav>
+        <nav>
+          <h6 className="footer-title JosefinSans">Services</h6>
+          <Link to={"/services"} className="link link-hover JosefinSans">
+            Website Design
+          </Link>
+          <Link to={"/services"} className="link link-hover JosefinSans">
+            Frontend Development{" "}
+          </Link>
+          <Link to={"/services"} className="link link-hover JosefinSans">
+            Backend Development{" "}
+          </Link>
+          <Link to={"/services"} className="link link-hover JosefinSans">
+            Marn-Stack Development
+          </Link>
+          <Link to={"/services"} className="link link-hover JosefinSans">
+            Full-Stack Development
+          </Link>
+        </nav>
+        <nav>
+          <h6 className="footer-title JosefinSans">Short-cut</h6>
+          <Link to={"/"} className="link link-hover JosefinSans">
+            Home
+          </Link>
+          <Link to={"/about"} className="link link-hover JosefinSans">
+            About me
+          </Link>
+          <Link to={"/project"} className="link link-hover JosefinSans">
+            Projects
+          </Link>
+          <Link to={"/skills"} className="link link-hover JosefinSans">
+            Skills
+          </Link>
+          <Link to={"/contact"} className="link link-hover JosefinSans">
+            contact
+          </Link>
+        </nav>
+        <nav>
+          <h6 className="footer-title JosefinSans">OUR TEAM</h6>
+          <a target="blank" href="#" className="link JosefinSans link-hover">
+            Code-Biruni
           </a>
-          <a
-            href="https://www.linkedin.com/in/robius-sani/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mx-2 text-gray-200 hover:text-white"
-          >
-            <FaLinkedin size={30} />
+          <a target="blank" className="link JosefinSans link-hover">
+            Frontend Developer
           </a>
-          <a
-            href="https://x.com/RobiusS4690"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mx-2 text-gray-200 hover:text-white"
-          >
-            <FaTwitter size={30} />
+          <a target="blank" className="link JosefinSans link-hover">
+            Backend Developer
           </a>
-          <a
-            href="mailto:hafazrobiussani@gmail.com"
-            className="mx-2 text-gray-200 hover:text-white"
-          >
-            <FaEnvelope size={30} />
-          </a>
-        </div>
-        <p className="text-gray-400 text-sm">
-          © {new Date().getFullYear()} Robius Sani. All rights reserved.
-        </p>
-      </div>
-    </footer>
+        </nav>
+      </footer>
+      <footer className="footer bg-base-200 container mx-auto text-base-content border-base-300 border-t px-10 py-4">
+        <aside className="grid-flow-col items-center">
+          <img src={Logo} alt="webLogo" className="rounded-full h-[40px]" />
+          <p className="JosefinSans">
+            Code-Biruni Industries Ltd.
+            <br />
+            Providing reliable tech since 2024
+          </p>
+        </aside>
+        <nav className="md:place-self-center md:justify-self-end">
+          <div className="grid grid-flow-col gap-4">
+            <a
+              target="blank"
+              href="https://www.linkedin.com/in/robius-sani-mobarok/"
+            >
+              <FaLinkedin className="text-2xl text-gray-800" />
+            </a>
+            <a target="blank" href="https://github.com/Robiu-Sani">
+              <FaGithub className="text-2xl text-gray-800" />
+            </a>
+            <a target="blank" href="https://x.com/RobiusS4690">
+              <FaSquareXTwitter className="text-2xl text-gray-800" />
+            </a>
+            <a
+              target="blank"
+              href="https://www.facebook.com/robiussani.mubarok"
+            >
+              <FaFacebook className="text-2xl text-gray-800" />
+            </a>
+          </div>
+        </nav>
+      </footer>
+    </div>
   );
 }

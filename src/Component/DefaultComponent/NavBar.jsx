@@ -19,6 +19,9 @@ export default function NavBar() {
         <NavLink to={"/skills"}>Skills</NavLink>
       </li>
       <li className="homeNav">
+        <NavLink to={"/services"}>Services</NavLink>
+      </li>
+      <li className="homeNav">
         <NavLink to={"/contact"}>Contact</NavLink>
       </li>
     </>

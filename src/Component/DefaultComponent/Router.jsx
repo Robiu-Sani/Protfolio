@@ -8,6 +8,7 @@ import Skills from "../LandingPages/Skills/Skills";
 import Contact from "../LandingPages/Contact/Contact";
 import Test from "../Test";
 import Resume from "../LandingPages/Resume/Resume";
+import Services from "../LandingPages/Services/Services";
 
 export const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ export const router = createBrowserRouter([
       {
         path: "/skills",
         element: <Skills></Skills>,
+      },
+      {
+        path: "/services",
+        element: <Services></Services>,
       },
       {
         path: "/contact",

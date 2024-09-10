@@ -48,13 +48,15 @@ export default function ContactForm() {
           />
         </div>
         <div className="w-full p-3 flex flex-col items-center">
-          <h2 className="text-3xl font-bold mr-10">Send me a message</h2>
+          <h2 className="text-3xl font-bold JosefinSans mr-10">
+            Send me a message
+          </h2>
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="w-full p-5 md:p-10 space-y-4"
+            className="w-full p-5 JosefinSans md:p-10 space-y-4"
           >
-            <div className="flex items-center border-b-2 border-gray-300 py-2">
+            <div className="flex JosefinSans items-center border-b-2 border-gray-300 py-2">
               <FaUser className="text-gray-500 mr-3" />
               <input
                 type="text"
@@ -65,7 +67,7 @@ export default function ContactForm() {
               />
             </div>
 
-            <div className="flex items-center border-b-2 border-gray-300 py-2">
+            <div className="flex items-center JosefinSans border-b-2 border-gray-300 py-2">
               <FaEnvelope className="text-gray-500 mr-3" />
               <input
                 type="email"
@@ -76,7 +78,7 @@ export default function ContactForm() {
               />
             </div>
 
-            <div className="flex items-center border-b-2 border-gray-300 py-2">
+            <div className="flex items-center JosefinSans border-b-2 border-gray-300 py-2">
               <FaPhone className="text-gray-500 mr-3" />
               <input
                 type="tel"
@@ -86,7 +88,7 @@ export default function ContactForm() {
               />
             </div>
 
-            <div className="flex items-center border-b-2 h-20 border-gray-300 py-2">
+            <div className="flex items-center JosefinSans border-b-2 h-20 border-gray-300 py-2">
               <textarea
                 name="message"
                 placeholder="Your Message"
@@ -97,9 +99,9 @@ export default function ContactForm() {
 
             <button
               type="submit"
-              className="w-full bg-blue-500 text-white py-2 px-4 rounded-md flex justify-center items-center space-x-2 hover:bg-blue-600 transition"
+              className="w-full bg-blue-500 JosefinSans text-white py-2 px-4 rounded-md flex justify-center items-center space-x-2 hover:bg-blue-600 transition"
             >
-              <span>Send Message</span>
+              <span className="JosefinSans">Send Message</span>
               <FiSend />
             </button>
           </form>
