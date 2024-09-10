@@ -5,7 +5,7 @@ import {
   FaReact,
   FaPython,
   FaGit,
-  FaGithub,
+  // FaGithub,
   FaAngular,
   FaPhp,
   FaWordpress,
@@ -24,14 +24,14 @@ import { GiTargetArrows } from "react-icons/gi";
 
 export default function SkillesSection() {
   return (
-    <section className="py-12 bg-gray-100">
+    <section className="py-12 ">
       <div className="container mx-auto px-2">
         <h2 className="text-4xl JosefinSans font-bold text-center text-gray-800 mb-8">
           My Skills
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {/* HTML */}
-          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">
+          <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <FaHtml5 className="text-5xl text-orange-600 mb-4" />
             <h3 className="text-xl font-semibold JosefinSans text-gray-700">
               HTML
@@ -39,7 +39,7 @@ export default function SkillesSection() {
           </div>
 
           {/* CSS */}
-          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">
+          <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <FaCss3Alt className="text-5xl text-blue-600 mb-4" />
             <h3 className="text-xl font-semibold JosefinSans text-gray-700">
               CSS
@@ -47,7 +47,7 @@ export default function SkillesSection() {
           </div>
 
           {/* JavaScript */}
-          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">
+          <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <FaJs className="text-5xl text-yellow-500 mb-4" />
             <h3 className="text-xl font-semibold JosefinSans text-gray-700">
               JavaScript (ES6)
@@ -55,7 +55,7 @@ export default function SkillesSection() {
           </div>
 
           {/* Python */}
-          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">
+          <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <FaPython className="text-5xl text-blue-400 mb-4" />
             <h3 className="text-xl font-semibold JosefinSans text-gray-700">
               Python
@@ -63,7 +63,7 @@ export default function SkillesSection() {
           </div>
 
           {/* Tailwind CSS */}
-          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">
+          <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <SiTailwindcss className="text-5xl text-teal-500 mb-4" />
             <h3 className="text-xl font-semibold JosefinSans text-gray-700">
               Tailwind CSS
@@ -71,7 +71,7 @@ export default function SkillesSection() {
           </div>
 
           {/* React JS */}
-          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">
+          <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <FaReact className="text-5xl text-blue-500 mb-4" />
             <h3 className="text-xl font-semibold JosefinSans text-gray-700">
               React JS
@@ -79,7 +79,7 @@ export default function SkillesSection() {
           </div>
 
           {/* Next.js */}
-          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">
+          <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <SiNextdotjs className="text-5xl text-black mb-4" />
             <h3 className="text-xl font-semibold JosefinSans text-gray-700">
               Next.js
@@ -87,7 +87,7 @@ export default function SkillesSection() {
           </div>
 
           {/* Express.js */}
-          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">
+          <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <SiExpress className="text-5xl text-gray-700 mb-4" />
             <h3 className="text-xl font-semibold JosefinSans text-gray-700">
               Express.js
@@ -95,7 +95,7 @@ export default function SkillesSection() {
           </div>
 
           {/* Django */}
-          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">
+          <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <SiDjango className="text-5xl text-green-600 mb-4" />
             <h3 className="text-xl font-semibold JosefinSans text-gray-700">
               Django
@@ -103,7 +103,7 @@ export default function SkillesSection() {
           </div>
 
           {/* Firebase */}
-          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">
+          <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <SiFirebase className="text-5xl text-yellow-500 mb-4" />
             <h3 className="text-xl font-semibold JosefinSans text-gray-700">
               Firebase
@@ -111,7 +111,7 @@ export default function SkillesSection() {
           </div>
 
           {/* MongoDB */}
-          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">
+          <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <SiMongodb className="text-5xl text-green-500 mb-4" />
             <h3 className="text-xl font-semibold JosefinSans text-gray-700">
               MongoDB
@@ -119,7 +119,7 @@ export default function SkillesSection() {
           </div>
 
           {/* Git */}
-          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">
+          <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <FaGit className="text-5xl text-orange-600 mb-4" />
             <h3 className="text-xl font-semibold JosefinSans text-gray-700">
               Git(GitHub)
@@ -127,7 +127,7 @@ export default function SkillesSection() {
           </div>
 
           {/* GitHub */}
-          {/* <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">
+          {/* <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <FaGithub className="text-5xl text-black mb-4" />
             <h3 className="text-xl font-semibold JosefinSans text-gray-700">GitHub</h3>
           </div> */}
@@ -138,7 +138,7 @@ export default function SkillesSection() {
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {/* TypeScript */}
-          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">
+          <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <SiTypescript className="text-5xl text-blue-600 mb-4" />
             <h3 className="text-xl font-semibold JosefinSans text-gray-700">
               TypeScript
@@ -146,7 +146,7 @@ export default function SkillesSection() {
           </div>
 
           {/* Redux */}
-          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">
+          <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <SiRedux className="text-5xl text-purple-600 mb-4" />
             <h3 className="text-xl font-semibold JosefinSans text-gray-700">
               Redux
@@ -154,7 +154,7 @@ export default function SkillesSection() {
           </div>
 
           {/* Angular */}
-          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">
+          <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <FaAngular className="text-5xl text-red-600 mb-4" />
             <h3 className="text-xl font-semibold JosefinSans text-gray-700">
               Angular
@@ -162,7 +162,7 @@ export default function SkillesSection() {
           </div>
 
           {/* PHP */}
-          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">
+          <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <FaPhp className="text-5xl text-indigo-600 mb-4" />
             <h3 className="text-xl font-semibold JosefinSans text-gray-700">
               PHP
@@ -171,7 +171,7 @@ export default function SkillesSection() {
           <span className="hidden lg:block"></span>
 
           {/* WordPress */}
-          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">
+          <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <FaWordpress className="text-5xl text-blue-700 mb-4" />
             <h3 className="text-xl font-semibold JosefinSans text-gray-700">
               WordPress
@@ -179,7 +179,7 @@ export default function SkillesSection() {
           </div>
 
           {/* Goal Icon */}
-          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg hover:bg-blue-50">
+          <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <GiTargetArrows className="text-5xl text-red-500 mb-4" />
             <h3 className="text-xl font-semibold JosefinSans text-gray-700">
               More to Come...
