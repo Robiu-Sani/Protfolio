@@ -1,3 +1,9 @@
+import SkillsBanner from "./SkillsBanner";
+
 export default function Skills() {
-  return <div>Skills</div>;
+  return (
+    <div>
+      <SkillsBanner></SkillsBanner>
+    </div>
+  );
 }

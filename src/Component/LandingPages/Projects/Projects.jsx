@@ -1,3 +1,9 @@
+import ProjectsBanner from "./ProjectsBanner";
+
 export default function Projects() {
-  return <div>Projects</div>;
+  return (
+    <div className="w-full">
+      <ProjectsBanner></ProjectsBanner>
+    </div>
+  );
 }
