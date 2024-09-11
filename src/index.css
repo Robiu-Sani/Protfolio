@@ -8,7 +8,7 @@
   /* font-family: "Bungee Tint", sans-serif; */
   /* font-family: "Josefin Sans", sans-serif; */
   /* font-family: "New Amsterdam", sans-serif; */
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   transition: 0.3s;
 }
 .JosefinSans {
@@ -24,6 +24,9 @@
   background: transparent !important;
   font-weight: bold !important;
   color: rgb(255, 145, 1) !important;
+}
+.skew {
+  transform: rotatey(180deg);
 }
 .rotate {
   animation: rotation infinite 3s;

@@ -29,7 +29,7 @@ export default function SkillesSection() {
         <h2 className="text-4xl JosefinSans font-bold text-center text-gray-800 mb-8">
           My Skills
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-8">
           {/* HTML */}
           <div className="flex flex-col items-center p-6 border shadow-lg rounded-lg hover:bg-blue-50">
             <FaHtml5 className="text-5xl text-orange-600 mb-4" />
