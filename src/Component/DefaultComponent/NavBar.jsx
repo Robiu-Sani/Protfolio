@@ -28,8 +28,8 @@ export default function NavBar() {
   );
 
   return (
-    <div className="w-full fixed top-0 z-50">
-      <div className="navbar container mx-auto bg-[#0000]">
+    <div className="w-full blurBg fixed top-0 z-50">
+      <div className="navbar p-1 container mx-auto bg-[#0000]">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

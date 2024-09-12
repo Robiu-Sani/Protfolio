@@ -10,7 +10,7 @@ const ServicesSection = () => {
     <section className="py-16 ">
       <div className="container px-2 mx-auto text-center">
         <h2 className="text-4xl font-bold mb-8 JosefinSans text-gray-800">
-          Our Services
+          My Services
         </h2>
 
         <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

@@ -11,6 +11,11 @@
   font-family: "Josefin Sans", sans-serif;
   transition: 0.3s;
 }
+.blurBg {
+  background: rgba(255, 255, 255, 0.199);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
 .JosefinSans {
   font-family: "Josefin Sans", sans-serif;
 }

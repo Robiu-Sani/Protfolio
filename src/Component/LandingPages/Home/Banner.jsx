@@ -14,20 +14,20 @@ import {
 export default function Banner() {
   return (
     <div className="container mb-10 relative mx-auto mt-16 bg-gray-200 rounded-md py-20 px-3 grid flex-col-reverse grid-cols-1 md:grid-cols-2 justify-center items-center">
-      <div className="flex w-full flex-col gap-2 justify-center items-center md:items-start">
+      <div className="flex z-10 w-full flex-col gap-2 justify-center items-center md:items-start">
         <div className="text-center md:text-left px-4 md:px-10 ">
           <h3 className="text-gray-500 font-bold text-lg md:text-xl ">
-            Hi! It's
+            Hi There! It's
           </h3>
           <h1 className="text-gray-500 font-extrabold text-4xl md:text-[70px]  mt-4">
             ROBIUS SANI
           </h1>
           <h2 className="text-gray-500 text-2xl md:text-3xl font-semibold mt-2">
-            MERN Stack Web Developer.
+            Full Stack Web Developer.
           </h2>
         </div>
-        <div className="w-full px-2 md:pl-4 ml-0 md:ml-10 py-2 mt-4 relative border-0 md:border-l-2 border-gray-500">
-          <p>
+        <div className="w-full z-10 px-2 md:pl-4 ml-0 md:ml-10 py-2 mt-4 relative border-0 md:border-l-2 border-gray-500">
+          <p className="z-10">
             Hi, I'm Robius Sani, a Junior MERN Stack Web Developer. I create
             responsive, scalable, and efficient web applications using MongoDB,
             Express.js, React, and Node.js. Let’s collaborate to bring your
@@ -52,10 +52,15 @@ export default function Banner() {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center gap-5">
-        <img src={image} alt="banner image" className="max-w-[350px] skew" />
+      <div className="flex z-10 flex-col justify-center relative items-center gap-5">
+        <img
+          src={image}
+          alt="banner image"
+          className="max-w-[350px] z-10 skew"
+        />
+        <div className="absolute bg-gray-200 border-[15px] border-white w-[350px] sm:w-[350px] h-[350px] sm:h-[350px] rounded-full"></div>
       </div>
-      <div className="absolute right-5 bottom-5 flex justify-center items-center gap-3">
+      <div className="absolute z-10 right-5 bottom-5 flex justify-center items-center gap-3">
         <a
           href="https://www.facebook.com/robiussani.mubarok/"
           target="_blank"
@@ -92,6 +97,9 @@ export default function Banner() {
           <FaGithubSquare className="text-3xl text-gray-600 hover:text-black" />
         </a>
       </div>
+      <h1 className="text-[14vw] text-white opacity-50 font-extrabold -rotate-12 z-0 text-center absolute">
+        Robius Sani
+      </h1>
     </div>
   );
 }

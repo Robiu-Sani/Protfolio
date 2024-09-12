@@ -1,25 +1,25 @@
 import { GiRead } from "react-icons/gi";
-import image from "../../../images/profile.png";
+import image from "../../../images/mobarok.jpeg";
 import Button from "../../ShaireComponent/Button";
 
 export default function AboutSection() {
   return (
     <div className="w-full pb-8 pt-3">
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 gap-3">
-        <div className="w-full px-5 lg:px-[70px] flex justify-center items-center">
+        <div className="w-full px-5 lg:px-[20px] flex border-r-0 sm:border-r-2 justify-center items-center">
           <div
-            className="border p-2"
-            style={{ boxShadow: "2px 2px 6px 0px #bfbfbf" }}
+          // className="border p-2"
+          // style={{ boxShadow: "2px 2px 6px 0px #bfbfbf" }}
           >
             <div
-              className="border p-2"
-              style={{ boxShadow: "inset 1px 1px 11px 0px #cacaca" }}
+            // className="border p-2"
+            // style={{ boxShadow: "inset 1px 1px 11px 0px #cacaca" }}
             >
               <img
                 src={image}
                 alt="Robius Sani (Mubarok)"
-                className="w-full"
-                style={{ boxShadow: "2px 2px 6px 0px #bfbfbf" }}
+                className="max-w-full sm:w-[320px] border rounded-md"
+                // style={{ boxShadow: "2px 2px 6px 0px #bfbfbf" }}
               />
             </div>
           </div>
