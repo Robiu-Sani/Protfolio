@@ -97,7 +97,7 @@ export default function Banner() {
           <FaGithubSquare className="text-3xl text-gray-600 hover:text-black" />
         </a>
       </div>
-      <h1 className="text-[14vw] text-white opacity-50 font-extrabold -rotate-12 z-0 text-center absolute">
+      <h1 className="text-[14vw] text-white opacity-30 font-extrabold -rotate-12 z-0 text-center absolute">
         Robius Sani
       </h1>
     </div>
