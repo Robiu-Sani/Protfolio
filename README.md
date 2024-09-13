@@ -29,7 +29,7 @@ I've also included some practice projects and simple pages to showcase my contin
 Feel free to connect with me:
 
 - **Email**: [hafazrobiussani@gmail.com](mailto:hafazrobiussani@gmail.com)
-- **LinkedIn**: [linkedin.com/in/robius-sani](https://www.linkedin.com/in/robius-sani/)
+- **LinkedIn**: [linkedin.com/in/robius-sani](https://www.linkedin.com/in/robius-sani-mobarok)
 - **GitHub**: [github.com/Robiu-Sani](https://github.com/Robiu-Sani)
 - **Twitter**: [twitter.com/RobiusS4690](https://twitter.com/RobiusS4690)
 
