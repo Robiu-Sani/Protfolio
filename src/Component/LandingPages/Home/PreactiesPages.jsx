@@ -1,33 +1,34 @@
-import image1 from "../../../images/e1.png";
-import image2 from "../../../images/e2.png";
-import image3 from "../../../images/e3.png";
+import image1 from "../../../images/b1.png";
+import image2 from "../../../images/b2.png";
+import image3 from "../../../images/b3.png";
+import image4 from "../../../images/b4.png";
 import PreactiesCard from "../../ShaireComponent/PreactiesCard";
 
 export default function PreactiesPages() {
   const data = [
     {
-      name: "3D Moveing Image",
+      name: "Loader 3",
       image: image1,
-      LiveLink: "https://robiu-sani.github.io/css-3d-animation-image/",
-      GitHub: "https://github.com/Robiu-Sani/css-3d-animation-image/",
+      LiveLink: "https://robiu-sani.github.io/loader-3/",
+      GitHub: "https://github.com/Robiu-Sani/loader-3",
     },
     {
-      name: "Contact Form",
+      name: "Loader 2",
       image: image2,
-      LiveLink: "https://robiu-sani.github.io/Css-UniQue-Form/",
-      GitHub: "https://github.com/Robiu-Sani/Css-UniQue-Form",
+      LiveLink: "https://robiu-sani.github.io/loader-2/",
+      GitHub: "https://github.com/Robiu-Sani/loader-2",
     },
     {
-      name: "Product Card",
+      name: "Icon Carcle",
       image: image3,
-      LiveLink: "https://robiu-sani.github.io/project-selling-card/",
-      GitHub: "https://github.com/Robiu-Sani/project-selling-card",
+      LiveLink: "https://robiu-sani.github.io/Css-icon-cercel/",
+      GitHub: "https://github.com/Robiu-Sani/Css-icon-cercel",
     },
     {
-      name: "3D Moveing Image",
-      image: image1,
-      LiveLink: "https://robiu-sani.github.io/css-3d-animation-image/",
-      GitHub: "https://github.com/Robiu-Sani/css-3d-animation-image/",
+      name: "Vustom Review",
+      image: image4,
+      LiveLink: "https://robiu-sani.github.io/Customer-Review/",
+      GitHub: "https://github.com/Robiu-Sani/Customer-Review",
     },
   ];
   return (

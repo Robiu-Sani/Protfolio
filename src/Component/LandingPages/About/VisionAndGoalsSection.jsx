@@ -2,7 +2,7 @@ import { FaLightbulb, FaRocket, FaBullseye } from "react-icons/fa";
 
 const VisionAndGoalsSection = () => {
   return (
-    <section className="min-h-screen bg-gray-50 py-12">
+    <section className="min-h-screen  py-12">
       <div className="max-w-5xl mx-auto px-6 lg:px-8">
         {/* Heading */}
         <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">

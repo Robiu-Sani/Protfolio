@@ -67,7 +67,7 @@ export default function Footer() {
           </a>
         </nav>
       </footer>
-      <footer className="footer bg-base-200 container mx-auto text-base-content border-base-300 border-t px-10 py-4">
+      <footer className="footer bg-gray-200 container mx-auto text-base-content border-base-300 border-t px-10 py-4">
         <aside className="grid-flow-col items-center">
           <img src={Logo} alt="webLogo" className="rounded-full h-[40px]" />
           <p className="JosefinSans">

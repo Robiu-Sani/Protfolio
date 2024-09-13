@@ -37,7 +37,7 @@ const ToolsSkillsDetails = () => {
   ];
 
   return (
-    <section className="min-h-screen bg-gray-100 py-12">
+    <section className="min-h-screen  py-12">
       <div className="max-w-5xl mx-auto px-6 lg:px-8">
         <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
           Tools & Technologies
@@ -46,7 +46,7 @@ const ToolsSkillsDetails = () => {
           {tools.map((tool, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-lg p-6 flex flex-col items-center"
+              className="bg-gray-100 shadow-md rounded-lg p-6 flex flex-col items-center"
             >
               <div className="mb-4">{tool.icon}</div>
               <h2 className="text-2xl font-semibold text-gray-800 mb-4">
