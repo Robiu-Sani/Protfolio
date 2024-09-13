@@ -5,10 +5,10 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <div className="w-full bg-gray-200">
-      <footer className="footer grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 container mx-auto bg-gray-200 text-base-content p-10">
+    <div className="w-full animationTimeline bg-gray-200">
+      <footer className="footer grid animationTimeline grid-cols-1 sm:grid-cols-2 md:grid-cols-4 container mx-auto bg-gray-200 text-base-content p-10">
         <nav>
-          <div className="flex justify-start items-center gap-2">
+          <div className="flex justify-start animationTimeline items-center gap-2">
             <img src={Logo} alt="webLogo" className="rounded-full h-[40px]" />
             <h3 className="font-bold text-xl Name JosefinSans">WebWeaver</h3>
           </div>
@@ -18,7 +18,7 @@ export default function Footer() {
             applying new skills, and I`m always up for a challenge.
           </p>
         </nav>
-        <nav>
+        <nav className="animationTimeline">
           <h6 className="footer-title JosefinSans">Services</h6>
           <Link to={"/services"} className="link link-hover JosefinSans">
             Website Design
@@ -36,7 +36,7 @@ export default function Footer() {
             Full-Stack Development
           </Link>
         </nav>
-        <nav>
+        <nav className="animationTimeline">
           <h6 className="footer-title JosefinSans">Short-cut</h6>
           <Link to={"/"} className="link link-hover JosefinSans">
             Home
@@ -54,7 +54,7 @@ export default function Footer() {
             contact
           </Link>
         </nav>
-        <nav>
+        <nav className="animationTimeline">
           <h6 className="footer-title JosefinSans">OUR TEAM</h6>
           <a target="blank" href="#" className="link JosefinSans link-hover">
             Code-Biruni
@@ -67,7 +67,7 @@ export default function Footer() {
           </a>
         </nav>
       </footer>
-      <footer className="footer bg-gray-200 container mx-auto text-base-content border-base-300 border-t px-10 py-4">
+      <footer className="footer  bg-gray-200 container mx-auto text-base-content border-base-300 border-t px-10 py-4">
         <aside className="grid-flow-col items-center">
           <img src={Logo} alt="webLogo" className="rounded-full h-[40px]" />
           <p className="JosefinSans">

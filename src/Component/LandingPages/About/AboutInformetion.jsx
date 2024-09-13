@@ -2,10 +2,10 @@ import { FaUser } from "react-icons/fa";
 
 export default function AboutInformation() {
   return (
-    <div className="w-full">
+    <div className="w-full animationTimeline">
       <div className="container mx-auto px-2">
         {/* Section 1 */}
-        <div className="grid grid-cols-1 py-5">
+        <div className="grid grid-cols-1 animationTimeline py-5">
           <p className="JosefinSans text-justify flex flex-col  items-start sm:items-center mb-3">
             <div className="w-full flex gap-3 my-3 justify-start items-center">
               <FaUser className="mr-2" />

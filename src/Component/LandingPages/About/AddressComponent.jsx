@@ -8,9 +8,9 @@ export default function AddressComponent() {
   const permanentAddressCoords = [24.4371, 90.951]; // Example for Kishoreganj
 
   return (
-    <div className="w-full grid grid-cols-1 sm:grid-cols-2 p-6 space-y-8">
+    <div className="w-full animationTimeline grid grid-cols-1 sm:grid-cols-2 p-6 space-y-8">
       {/* Present Address Card */}
-      <div className="bg-white shadow-lg rounded-lg p-4">
+      <div className="bg-white animationTimeline shadow-lg rounded-lg p-4">
         <div className="flex items-center space-x-4">
           <FaHome size={30} className="text-blue-600" />
           <div>
@@ -40,7 +40,7 @@ export default function AddressComponent() {
       </div>
 
       {/* Permanent Address Card */}
-      <div className="bg-white shadow-lg rounded-lg p-4">
+      <div className="bg-white animationTimeline shadow-lg rounded-lg p-4">
         <div className="flex items-center space-x-4">
           <FaMapMarkerAlt size={30} className="text-green-600" />
           <div>

@@ -33,10 +33,10 @@ export default function PreactiesPages() {
   ];
   return (
     <div className="w-full py-10 ">
-      <h2 className="text-2xl JosefinSans font-bold text-center text-gray-800 mb-8">
+      <h2 className="text-2xl animationTimeline JosefinSans font-bold text-center text-gray-800 mb-8">
         My Preactiesing Pages
       </h2>
-      <div className="container mx-auto px-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div className="container mx-auto animationTimeline px-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
         {data.map((item, idx) => (
           <PreactiesCard data={item} key={idx}></PreactiesCard>
         ))}

@@ -13,7 +13,7 @@ import {
 
 export default function Banner() {
   return (
-    <div className="container mb-10 relative mx-auto mt-16 bg-gray-200 rounded-md py-20 px-3 grid flex-col-reverse grid-cols-1 md:grid-cols-2 justify-center items-center">
+    <div className="container reloadanimations mb-10 relative mx-auto mt-16 bg-gray-200 rounded-md py-20 px-3 grid flex-col-reverse grid-cols-1 md:grid-cols-2 justify-center items-center">
       <div className="flex z-10 w-full flex-col gap-2 justify-center items-center md:items-start">
         <div className="text-center md:text-left px-4 md:px-10 ">
           <h3 className="text-gray-500 font-bold text-lg md:text-xl ">

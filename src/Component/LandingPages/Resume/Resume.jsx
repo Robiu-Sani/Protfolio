@@ -4,7 +4,7 @@ import Button from "../../ShaireComponent/Button";
 
 export default function Resume() {
   return (
-    <div className="pb-5 mt-16 px-2 w-full flex flex-col items-center gap-5">
+    <div className="pb-5 reloadanimations mt-16 px-2 w-full flex flex-col items-center gap-5">
       <a
         href={resume}
         download

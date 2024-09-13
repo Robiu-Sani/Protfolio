@@ -37,14 +37,14 @@ export default function SkillesSection() {
   return (
     <section className="min-h-screen  py-12">
       <div className="max-w-5xl mx-auto px-6 lg:px-8">
-        <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
+        <h1 className="text-4xl animationTimeline font-bold text-center text-gray-800 mb-8">
           Skills & Technologies
         </h1>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="bg-gray-100 shadow-md rounded-lg p-6 flex flex-col items-center"
+              className="bg-gray-100 animationTimeline shadow-md rounded-lg p-6 flex flex-col items-center"
             >
               <div className="mb-4">{skill.icon}</div>
               <h2 className="text-xl font-semibold text-gray-800">

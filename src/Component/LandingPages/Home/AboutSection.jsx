@@ -6,7 +6,7 @@ export default function AboutSection() {
   return (
     <div className="w-full pb-8 pt-3">
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 gap-3">
-        <div className="w-full px-5 lg:px-[20px] flex border-r-0 sm:border-r-2 justify-center items-center">
+        <div className="w-full reloadanimations animationTimeline px-5 lg:px-[20px] flex border-r-0 sm:border-r-2 justify-center items-center">
           <div
           // className="border p-2"
           // style={{ boxShadow: "2px 2px 6px 0px #bfbfbf" }}
@@ -18,13 +18,13 @@ export default function AboutSection() {
               <img
                 src={image}
                 alt="Robius Sani (Mubarok)"
-                className="max-w-full sm:w-[320px] border rounded-md"
+                className="max-w-full animationTimeline sm:w-[320px] border rounded-md"
                 // style={{ boxShadow: "2px 2px 6px 0px #bfbfbf" }}
               />
             </div>
           </div>
         </div>
-        <div className="w-full p-2 flex justify-center flex-col gap-5 items-center">
+        <div className="w-full reloadanimations animationTimeline p-2 flex justify-center flex-col gap-5 items-center">
           <h2 className="text-3xl JosefinSans text-gray-500 font-bold w-full">
             About Me
           </h2>

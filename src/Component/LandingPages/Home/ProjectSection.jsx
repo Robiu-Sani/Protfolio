@@ -63,7 +63,7 @@ export default function ProjectSection() {
   return (
     <div className="w-full py-10 ">
       <div className="container mx-auto">
-        <h2 className="text-4xl JosefinSans font-bold text-center text-gray-800 mb-8">
+        <h2 className="text-4xl animationTimeline JosefinSans font-bold text-center text-gray-800 mb-8">
           My Complete Projects
         </h2>
         <div className="w-full px-2 container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mx-auto  justify-center items-center">
@@ -74,7 +74,7 @@ export default function ProjectSection() {
           <span></span>
         </div>
         <PreactiesPages></PreactiesPages>
-        <div className="w-full flex justify-center items-center pt-7">
+        <div className="w-full animationTimeline flex justify-center items-center pt-7">
           <Button
             icon={<SiCodeproject />}
             path={"/project"}

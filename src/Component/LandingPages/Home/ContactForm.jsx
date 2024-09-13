@@ -47,7 +47,7 @@ export default function ContactForm() {
     <div className="w-full">
       <div className="container mx-auto grid justify-center items-start grid-cols-1 sm:grid-cols-2">
         <div className="w-full grid grid-cols-2 gap-1 sm:h-[80%] p-2 sm:p-0">
-          <div className="w-full h-full border flex justify-center items-center flex-col">
+          <div className="w-full animationTimeline h-full border flex justify-center items-center flex-col">
             <FaWhatsapp size={40} color="green" />
             <p className="mt-2">Message on WhatsApp</p>
             <a
@@ -59,7 +59,7 @@ export default function ContactForm() {
               +8801617688805
             </a>
           </div>
-          <div className="w-full h-full border flex justify-center items-center flex-col">
+          <div className="w-full animationTimeline h-full border flex justify-center items-center flex-col">
             <FaTelegramPlane size={40} color="blue" />
             <p className="mt-2">Message on Telegram</p>
             <a
@@ -71,7 +71,7 @@ export default function ContactForm() {
               +8801617688805
             </a>
           </div>
-          <div className="w-full h-full border flex justify-center items-center flex-col">
+          <div className="w-full animationTimeline h-full border flex justify-center items-center flex-col">
             <FaFacebookMessenger size={40} color="blue" />
             <p className="mt-2">Message on Messenger</p>
             <a
@@ -83,20 +83,20 @@ export default function ContactForm() {
               Messenger Link
             </a>
           </div>
-          <div className="w-full h-full border flex justify-center items-center flex-col">
+          <div className="w-full animationTimeline h-full border flex justify-center items-center flex-col">
             <FaDiscord size={40} color="purple" />
             <p className="mt-2">Message on Discord</p>
             <p className="text-blue-500">robiussani.mobarokd</p>
           </div>
         </div>
         <div className="w-full p-3 flex flex-col items-center">
-          <h2 className="text-3xl font-bold JosefinSans mr-10">
+          <h2 className="text-3xl animationTimeline font-bold JosefinSans mr-10">
             Send me a message
           </h2>
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="w-full p-5 flex flex-col gap-2 JosefinSans md:p-10 space-y-4"
+            className="w-full p-5 flex animationTimeline flex-col gap-2 JosefinSans md:p-10 space-y-4"
           >
             <div className="w-full border relative rounded-md p-2">
               <label className="border flex justify-center items-center gap-2 rounded-sm absolute -top-3 px-3 text-sm bg-white">

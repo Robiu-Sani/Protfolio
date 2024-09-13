@@ -5,7 +5,7 @@ const FrontendServices = () => {
   return (
     <section className=" py-12">
       <div className="Container mx-auto px-6 lg:px-8">
-        <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
+        <h1 className="text-4xl animationTimeline font-bold text-center text-gray-800 mb-8">
           Frontend Services
         </h1>
         <div className=" grid grid-cols-1 md:grid-cols-2 justify-center items-center">
@@ -13,10 +13,10 @@ const FrontendServices = () => {
             <img
               src={frontendImage}
               alt="Frontend Services"
-              className="max-w-full  h-48  mb-6 lg:mb-0"
+              className="max-w-full animationTimeline h-48  mb-6 lg:mb-0"
             />
           </div>
-          <div className="w-full">
+          <div className="w-full animationTimeline">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">
               Transforming Designs into Beautiful Websites
             </h2>

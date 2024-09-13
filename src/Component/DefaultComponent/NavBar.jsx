@@ -28,7 +28,7 @@ export default function NavBar() {
   );
 
   return (
-    <div className="w-full blurBg fixed top-0 z-50">
+    <div className="w-full reloadanimations blurBg fixed top-0 z-50">
       <div className="navbar p-1 container mx-auto bg-[#0000]">
         <div className="navbar-start">
           <div className="dropdown">

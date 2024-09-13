@@ -40,21 +40,21 @@ const EducationJourney = () => {
   return (
     <div className="min-h-screen p-5">
       <div className="max-w-4xl mx-auto  rounded-lg p-8">
-        <h1 className="text-3xl font-bold text-center mb-10">
+        <h1 className="text-3xl animationTimeline font-bold text-center mb-10">
           My Educational Journey
         </h1>
         <div className="relative">
           {timelineData.map((item, index) => (
             <div
               key={index}
-              className={`flex items-center justify-between mb-10 ${
+              className={`flex items-center animationTimeline justify-between mb-10 ${
                 index % 2 === 0
                   ? "lg:flex-row-reverse flex-col"
                   : "lg:flex-row flex-col"
               }`}
             >
-              <div className="w-full lg:w-1/2 mb-4 lg:mb-0">
-                <div className="bg-gray-200 p-4 rounded-lg shadow-lg hover:bg-primary hover:text-white transition-all duration-300 ease-in-out">
+              <div className="w-full animationTimeline lg:w-1/2 mb-4 lg:mb-0">
+                <div className="bg-gray-200 p-4 animationTimeline rounded-lg shadow-lg hover:bg-primary hover:text-white transition-all duration-300 ease-in-out">
                   <h2 className="text-xl font-semibold">
                     {item.title} - {item.year}
                   </h2>

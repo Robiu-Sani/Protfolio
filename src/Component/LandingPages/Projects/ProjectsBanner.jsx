@@ -2,7 +2,7 @@ import image from "../../../images/aboutinfo.png";
 
 export default function ProjectsBanner() {
   return (
-    <div className="w-full pt-16 pb-10 px-3 flex justify-center items-center">
+    <div className="w-full reloadanimations pt-16 pb-10 px-3 flex justify-center items-center">
       <div className="bg-gray-200 rounded-md p-5  flex-col sm:flex-row px-2 container mx-auto flex justify-center items-center gap-10">
         <img
           src={image}

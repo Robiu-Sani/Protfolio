@@ -4,7 +4,7 @@ export default function PreactiesCard({ data }) {
   const { name, image, LiveLink, GitHub } = data;
 
   return (
-    <div className="w-full border overflow-hidden rounded-md relative shadow-md min-h-[100px] group">
+    <div className="w-full animationTimeline border overflow-hidden rounded-md relative shadow-md min-h-[100px] group">
       <img src={image} alt={name} className="w-full" />
       <div className="w-full bg-gray-200 flex justify-center items-center p-1">
         <small className="font-bold">{name}</small>

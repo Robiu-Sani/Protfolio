@@ -17,7 +17,7 @@ export default function ProjectCard(props) {
   const truncatedDescription = description.split(" ").slice(0, 10).join(" ");
 
   return (
-    <div className="w-full border shadow-md rounded-md grid grid-cols-1 gap-3 overflow-hidden">
+    <div className="w-full animationTimeline border shadow-md rounded-md grid grid-cols-1 gap-3 overflow-hidden">
       <div className="w-full grid grid-cols-1">
         <img
           src={image1}
