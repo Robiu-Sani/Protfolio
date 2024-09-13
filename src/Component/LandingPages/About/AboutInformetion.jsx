@@ -1,4 +1,4 @@
-import { FaUser, FaRegCircle } from "react-icons/fa";
+import { FaUser } from "react-icons/fa";
 
 export default function AboutInformation() {
   return (
@@ -9,7 +9,7 @@ export default function AboutInformation() {
           <p className="JosefinSans text-justify flex flex-col  items-start sm:items-center mb-3">
             <div className="w-full flex gap-3 my-3 justify-start items-center">
               <FaUser className="mr-2" />
-              <strong>Robius Sani:</strong>
+              <strong>Summary Robius Sani:</strong>
             </div>
             Hello! I'm Robius Sani, a Junior MERN Stack Developer with a passion
             for building dynamic and scalable web applications. I specialize in

@@ -1,3 +1,5 @@
+import FullProjects from "./FullProjects";
+import PreactiesProject from "./PreactiesProject";
 import ProjectsBanner from "./ProjectsBanner";
 
 export default function Projects() {
@@ -10,29 +12,29 @@ export default function Projects() {
             type="radio"
             name="my_tabs_2"
             role="tab"
-            className="tab"
+            className="tab min-w-[120px]"
             aria-label="Full Projects"
             defaultChecked
           />
           <div
             role="tabpanel"
-            className="tab-content bg-base-100 border-base-300 rounded-md p-6"
+            className="tab-content bg-base-100 border-base-300 rounded-md py-6 px-2 md:px-6"
           >
-            Tab content 1
+            <FullProjects></FullProjects>
           </div>
 
           <input
             type="radio"
             name="my_tabs_2"
             role="tab"
-            className="tab"
-            aria-label="Preactiesing Pages"
+            className="tab min-w-[150px]"
+            aria-label="Single Pages"
           />
           <div
             role="tabpanel"
-            className="tab-content bg-base-100 border-base-300 rounded-md p-6"
+            className="tab-content bg-base-100 border-base-300 rounded-md py-6 px-2 md:px-6"
           >
-            Tab content 2
+            <PreactiesProject></PreactiesProject>
           </div>
         </div>
       </div>
