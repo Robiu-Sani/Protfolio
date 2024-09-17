@@ -61,24 +61,26 @@ const BackendSkillsDetails = () => {
   ];
 
   return (
-    <section className="min-h-screen  py-12">
-      <div className="max-w-5xl mx-auto px-6 lg:px-8">
+    <section className="min-h-screen animationTimeline py-12">
+      <div className="max-w-5xl animationTimeline mx-auto px-6 lg:px-8">
         <h1 className="text-4xl animationTimeline font-bold text-center text-gray-800 mb-8">
           Backend Skills
         </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 animationTimeline sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="bg-gray-100 animationTimeline shadow-md rounded-lg p-6 flex flex-col items-center"
+              className="bg-gray-100 animationTimeline animationTimeline shadow-md rounded-lg p-6 flex flex-col items-center"
             >
               <div className="mb-4">{skill.icon}</div>
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+              <h2 className="text-2xl animationTimeline font-semibold text-gray-800 mb-4">
                 {skill.name}
               </h2>
-              <ul className="list-disc list-inside text-gray-600">
+              <ul className="list-disc animationTimeline list-inside text-gray-600">
                 {skill.details.map((detail, i) => (
-                  <li key={i}>{detail}</li>
+                  <li className="animationTimeline" key={i}>
+                    {detail}
+                  </li>
                 ))}
               </ul>
             </div>

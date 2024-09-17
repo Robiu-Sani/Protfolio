@@ -3,12 +3,12 @@ import { FaUser } from "react-icons/fa";
 export default function AboutInformation() {
   return (
     <div className="w-full animationTimeline">
-      <div className="container mx-auto px-2">
+      <div className="container animationTimeline mx-auto px-2">
         {/* Section 1 */}
         <div className="grid grid-cols-1 animationTimeline py-5">
-          <p className="JosefinSans text-justify flex flex-col  items-start sm:items-center mb-3">
-            <div className="w-full flex gap-3 my-3 justify-start items-center">
-              <FaUser className="mr-2" />
+          <p className="JosefinSans animationTimeline text-justify flex flex-col  items-start sm:items-center mb-3">
+            <div className="w-full animationTimeline flex gap-3 my-3 justify-start items-center">
+              <FaUser className="mr-2 animationTimeline" />
               <strong>Summary Robius Sani:</strong>
             </div>
             Hello! I'm Robius Sani, a Junior MERN Stack Developer with a passion
@@ -19,7 +19,7 @@ export default function AboutInformation() {
             technologies, allowing me to create full-stack applications that
             deliver seamless user experiences.
           </p>
-          <p className="JosefinSans text-justify flex flex-col  items-start sm:items-center">
+          <p className="JosefinSans animationTimeline text-justify flex flex-col  items-start sm:items-center">
             I have a strong foundation in HTML, CSS, and JavaScript, and I'm
             proficient in using React to build responsive, interactive
             interfaces. On the backend, I work with Node.js and Express.js to
@@ -27,13 +27,13 @@ export default function AboutInformation() {
             MongoDB for database management, ensuring that data is efficiently
             stored and retrieved.
           </p>
-          <p className="JosefinSans text-justify flex flex-col  items-start sm:items-center mb-3">
+          <p className="JosefinSans animationTimeline text-justify flex flex-col  items-start sm:items-center mb-3">
             As a developer, I am committed to writing clean, efficient code and
             continually learning new tools and technologies to improve my skill
             set. I enjoy working in collaborative environments, where I can
             contribute to meaningful projects and learn from others.
           </p>
-          <p className="JosefinSans text-justify flex flex-col  items-start sm:items-center mb-3">
+          <p className="JosefinSans animationTimeline text-justify flex flex-col  items-start sm:items-center mb-3">
             I'm currently expanding my knowledge in Next.js and looking forward
             to exploring other frameworks like Angular. My goal is to continue
             growing as a developer and take on new challenges that push the
@@ -44,7 +44,7 @@ export default function AboutInformation() {
             community.
           </p>
 
-          <p className="JosefinSans text-justify flex flex-col  items-start sm:items-center">
+          <p className="JosefinSans animationTimeline text-justify flex flex-col  items-start sm:items-center">
             My journey in web development began in 2023 when I started learning
             to code, and since then, I've been dedicated to honing my skills and
             expanding my knowledge. I completed the Complete Web Development

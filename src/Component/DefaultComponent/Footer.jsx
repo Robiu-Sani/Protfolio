@@ -6,63 +6,111 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 export default function Footer() {
   return (
     <div className="w-full animationTimeline bg-gray-200">
-      <footer className="footer grid animationTimeline grid-cols-1 sm:grid-cols-2 md:grid-cols-4 container mx-auto bg-gray-200 text-base-content p-10">
+      <footer className="footer  grid animationTimeline grid-cols-1 sm:grid-cols-2 md:grid-cols-4 container mx-auto bg-gray-200 text-base-content p-10">
         <nav>
           <div className="flex justify-start animationTimeline items-center gap-2">
             <img src={Logo} alt="webLogo" className="rounded-full h-[40px]" />
-            <h3 className="font-bold text-xl Name JosefinSans">WebWeaver</h3>
+            <h3 className="font-bold text-xl Name animationTimeline JosefinSans">
+              WebWeaver
+            </h3>
           </div>
-          <p className="my-3 JosefinSans">
+          <p className="my-3 animationTimeline JosefinSans">
             My name is Robius Sani. I`m a passionate full-stack web developer
             with a keen interest in web technologies. I enjoy learning and
             applying new skills, and I`m always up for a challenge.
           </p>
         </nav>
         <nav className="animationTimeline">
-          <h6 className="footer-title JosefinSans">Services</h6>
-          <Link to={"/services"} className="link link-hover JosefinSans">
+          <h6 className="footer-title animationTimeline JosefinSans">
+            Services
+          </h6>
+          <Link
+            to={"/services"}
+            className="link link-hover animationTimeline JosefinSans"
+          >
             Website Design
           </Link>
-          <Link to={"/services"} className="link link-hover JosefinSans">
+          <Link
+            to={"/services"}
+            className="link link-hover animationTimeline JosefinSans"
+          >
             Frontend Development{" "}
           </Link>
-          <Link to={"/services"} className="link link-hover JosefinSans">
+          <Link
+            to={"/services"}
+            className="link link-hover animationTimeline JosefinSans"
+          >
             Backend Development{" "}
           </Link>
-          <Link to={"/services"} className="link link-hover JosefinSans">
+          <Link
+            to={"/services"}
+            className="link link-hover animationTimeline JosefinSans"
+          >
             Marn-Stack Development
           </Link>
-          <Link to={"/services"} className="link link-hover JosefinSans">
+          <Link
+            to={"/services"}
+            className="link link-hover animationTimeline JosefinSans"
+          >
             Full-Stack Development
           </Link>
         </nav>
         <nav className="animationTimeline">
-          <h6 className="footer-title JosefinSans">Short-cut</h6>
-          <Link to={"/"} className="link link-hover JosefinSans">
+          <h6 className="footer-title animationTimeline JosefinSans">
+            Short-cut
+          </h6>
+          <Link
+            to={"/"}
+            className="link link-hover animationTimeline JosefinSans"
+          >
             Home
           </Link>
-          <Link to={"/about"} className="link link-hover JosefinSans">
+          <Link
+            to={"/about"}
+            className="link link-hover animationTimeline JosefinSans"
+          >
             About me
           </Link>
-          <Link to={"/project"} className="link link-hover JosefinSans">
+          <Link
+            to={"/project"}
+            className="link link-hover animationTimeline JosefinSans"
+          >
             Projects
           </Link>
-          <Link to={"/skills"} className="link link-hover JosefinSans">
+          <Link
+            to={"/skills"}
+            className="link link-hover animationTimeline JosefinSans"
+          >
             Skills
           </Link>
-          <Link to={"/contact"} className="link link-hover JosefinSans">
+          <Link
+            to={"/contact"}
+            className="link link-hover animationTimeline JosefinSans"
+          >
             contact
           </Link>
         </nav>
         <nav className="animationTimeline">
-          <h6 className="footer-title JosefinSans">OUR TEAM</h6>
-          <a target="blank" href="#" className="link JosefinSans link-hover">
+          <h6 className="footer-title animationTimeline JosefinSans">
+            OUR TEAM
+          </h6>
+          <a
+            target="blank"
+            href="#"
+            className="link animationTimeline JosefinSans link-hover"
+          >
             Code-Biruni
           </a>
-          <a target="blank" className="link JosefinSans link-hover">
+          <a
+            target="blank"
+            className="link JosefinSans animationTimeline link-hover"
+          >
             Frontend Developer
           </a>
-          <a target="blank" className="link JosefinSans link-hover">
+          <a
+            target="blank"
+            className="link JosefinSans animationTimeline link-hover"
+          >
             Backend Developer
           </a>
         </nav>

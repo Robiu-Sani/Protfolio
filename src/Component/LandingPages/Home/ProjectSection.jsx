@@ -61,12 +61,12 @@ const projectsData = [
 
 export default function ProjectSection() {
   return (
-    <div className="w-full py-10 ">
-      <div className="container mx-auto">
+    <div className="w-full animationTimeline py-10 ">
+      <div className="container animationTimeline mx-auto">
         <h2 className="text-4xl animationTimeline JosefinSans font-bold text-center text-gray-800 mb-8">
           My Complete Projects
         </h2>
-        <div className="w-full px-2 container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mx-auto  justify-center items-center">
+        <div className="w-full px-2 animationTimeline container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mx-auto  justify-center items-center">
           {/* ------------------ there will have projects card -------------  */}
           <ProjectCard data={projectsData[0]}></ProjectCard>
           <ProjectCard data={projectsData[1]}></ProjectCard>

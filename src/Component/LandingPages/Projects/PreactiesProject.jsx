@@ -159,7 +159,7 @@ export default function PreactiesProject() {
   ];
 
   return (
-    <div className="container mx-auto px-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+    <div className="container mx-auto animationTimeline px-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
       {data.map((item, idx) => (
         <PreactiesCard data={item} key={idx}></PreactiesCard>
       ))}

@@ -18,31 +18,36 @@ export default function ProjectCard(props) {
 
   return (
     <div className="w-full animationTimeline border shadow-md rounded-md grid grid-cols-1 gap-3 overflow-hidden">
-      <div className="w-full grid grid-cols-1">
+      <div className="w-full animationTimeline grid grid-cols-1">
         <img
           src={image1}
           alt={`${ProjectName} screenshot 1`}
-          className="w-full object-cover"
+          className="w-full animationTimeline object-cover"
         />
       </div>
-      <div className="w-full flex flex-col justify-between p-2">
-        <h1 className="text-xl font-bold JosefinSans mb-2">{ProjectName}</h1>
-        <p className="text-sm JosefinSans mb-4">
+      <div className="w-full animationTimeline flex flex-col justify-between p-2">
+        <h1 className="text-xl animationTimeline font-bold JosefinSans mb-2">
+          {ProjectName}
+        </h1>
+        <p className="text-sm animationTimeline JosefinSans mb-4">
           <strong>Description : </strong>
           {isExpanded ? description : truncatedDescription + "... "}
           <button
             onClick={toggleDescription}
-            className="text-blue-600 hover:underline"
+            className="text-blue-600 animationTimeline hover:underline"
           >
             {isExpanded ? "Show less" : "Read more"}
           </button>
         </p>
         <hr className="mb-3" />
-        <div className="w-full flex flex-wrap gap-1 mb-4">
-          <strong className="text-[11px]"> Technology : </strong>
+        <div className="w-full flex animationTimeline flex-wrap gap-1 mb-4">
+          <strong className="text-[11px] animationTimeline">
+            {" "}
+            Technology :{" "}
+          </strong>
           {technology.map((item, idx) => (
             <span
-              className="text-[10px] p-0 px-2 rounded-sm bg-gray-200 flex items-center"
+              className="text-[10px] p-0 px-2 animationTimeline rounded-sm bg-gray-200 flex items-center"
               key={idx}
             >
               {item}
@@ -50,22 +55,22 @@ export default function ProjectCard(props) {
           ))}
         </div>
         <hr />
-        <div className="w-full mt-2 flex justify-between items-center">
+        <div className="w-full mt-2 flex animationTimeline justify-between items-center">
           <a
             href={gitHub}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center text-sm text-blue-600 hover:text-blue-800"
+            className="flex items-center animationTimeline text-sm text-blue-600 hover:text-blue-800"
           >
-            <FaGithub className="mr-2" /> GitHub Repo
+            <FaGithub className="mr-2 animationTimeline" /> GitHub Repo
           </a>
           <a
             href={liveLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center text-sm text-green-600 hover:text-green-800"
+            className="flex items-center animationTimeline text-sm text-green-600 hover:text-green-800"
           >
-            <FaExternalLinkAlt className="mr-2" /> Live Link
+            <FaExternalLinkAlt className="mr-2 animationTimeline" /> Live Link
           </a>
         </div>
       </div>

@@ -122,7 +122,7 @@ export default function FullProjects() {
   ];
 
   return (
-    <div className="w-full px-2 container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mx-auto  justify-center items-center">
+    <div className="w-full px-2 animationTimeline container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mx-auto  justify-center items-center">
       {/* ------------------ there will have projects card -------------  */}
       {projectsData.map((item, idx) => (
         <ProjectCard key={idx} data={item}></ProjectCard>

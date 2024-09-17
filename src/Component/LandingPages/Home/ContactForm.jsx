@@ -44,49 +44,51 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="w-full">
-      <div className="container mx-auto grid justify-center items-start grid-cols-1 sm:grid-cols-2">
-        <div className="w-full grid grid-cols-2 gap-1 sm:h-[80%] p-2 sm:p-0">
-          <div className="w-full animationTimeline h-full border flex justify-center items-center flex-col">
-            <FaWhatsapp size={40} color="green" />
-            <p className="mt-2">Message on WhatsApp</p>
+    <div className="w-full animationTimeline">
+      <div className="container mx-auto grid animationTimeline justify-center items-start grid-cols-1 sm:grid-cols-2">
+        <div className="w-full grid grid-cols-2 animationTimeline gap-1 sm:h-[80%] p-2 sm:p-0">
+          <div className="w-full py-3 animationTimeline h-full border flex justify-center items-center flex-col">
+            <FaWhatsapp size={40} color="green animationTimeline" />
+            <p className="mt-2 animationTimeline">Message on WhatsApp</p>
             <a
               href="https://wa.me/8801617688805"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500"
+              className="text-blue-500 animationTimeline"
             >
               +8801617688805
             </a>
           </div>
-          <div className="w-full animationTimeline h-full border flex justify-center items-center flex-col">
+          <div className="w-full py-3 animationTimeline h-full border flex justify-center items-center flex-col">
             <FaTelegramPlane size={40} color="blue" />
-            <p className="mt-2">Message on Telegram</p>
+            <p className="mt-2 animationTimeline">Message on Telegram</p>
             <a
               href="https://t.me/8801617688805"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500"
+              className="text-blue-500 animationTimeline"
             >
               +8801617688805
             </a>
           </div>
-          <div className="w-full animationTimeline h-full border flex justify-center items-center flex-col">
+          <div className="w-full py-3 animationTimeline h-full border flex justify-center items-center flex-col">
             <FaFacebookMessenger size={40} color="blue" />
-            <p className="mt-2">Message on Messenger</p>
+            <p className="mt-2 animationTimeline">Message on Messenger</p>
             <a
               href="https://www.facebook.com/messages/e2ee/t/8424805444225538"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500"
+              className="text-blue-500 animationTimeline"
             >
               Messenger Link
             </a>
           </div>
-          <div className="w-full animationTimeline h-full border flex justify-center items-center flex-col">
+          <div className="w-full py-3 animationTimeline h-full border flex justify-center items-center flex-col">
             <FaDiscord size={40} color="purple" />
             <p className="mt-2">Message on Discord</p>
-            <p className="text-blue-500">robiussani.mobarokd</p>
+            <p className="text-blue-500 animationTimeline">
+              robiussani.mobarokd
+            </p>
           </div>
         </div>
         <div className="w-full p-3 flex flex-col items-center">
@@ -100,21 +102,21 @@ export default function ContactForm() {
           >
             <div className="w-full border relative rounded-md p-2">
               <label className="border flex justify-center items-center gap-2 rounded-sm absolute -top-3 px-3 text-sm bg-white">
-                <FaUser className="text-gray-500 text-sm" />
-                <span>Your Name</span>
+                <FaUser className="text-gray-500 animationTimeline text-sm" />
+                <span className="animationTimeline">Your Name</span>
               </label>
 
               <input
                 type="text"
                 name="user_name"
                 placeholder="Your Name"
-                className="w-full mt-2 outline-0 border-0"
+                className="w-full mt-2 animationTimeline outline-0 border-0"
                 required
               />
             </div>
 
-            <div className="w-full mb-7 border relative rounded-md p-2">
-              <label className="border flex justify-center items-center gap-2 rounded-sm absolute -top-3 px-3 text-sm bg-white">
+            <div className="w-full mb-7 animationTimeline border relative rounded-md p-2">
+              <label className="border animationTimeline flex justify-center items-center gap-2 rounded-sm absolute -top-3 px-3 text-sm bg-white">
                 <FaEnvelope className="text-gray-500 text-sm" />
                 <span>Your Email</span>
               </label>
@@ -122,13 +124,13 @@ export default function ContactForm() {
                 type="email"
                 name="user_email"
                 placeholder="Your Email"
-                className="w-full mt-2 outline-0 border-0"
+                className="w-full mt-2 animationTimeline outline-0 border-0"
                 required
               />
             </div>
 
-            <div className="w-full mb-7 border relative rounded-md p-2">
-              <label className="border flex justify-center items-center gap-2 rounded-sm absolute -top-3 px-3 text-sm bg-white">
+            <div className="w-full mb-7 animationTimeline border relative rounded-md p-2">
+              <label className="border flex  animationTimeline justify-center items-center gap-2 rounded-sm absolute -top-3 px-3 text-sm bg-white">
                 <FaPhone className="text-gray-500 text-sm" />
                 <span>Your Phone</span>
               </label>
@@ -136,28 +138,30 @@ export default function ContactForm() {
                 type="tel"
                 name="user_phone"
                 placeholder="Your Phone"
-                className="w-full mt-2 outline-0 border-0"
+                className="w-full mt-2 animationTimeline outline-0 border-0"
               />
             </div>
 
-            <div className="w-full border relative rounded-md p-2">
-              <label className="border flex justify-center items-center gap-2 rounded-sm absolute -top-3 px-3 text-sm bg-white">
+            <div className="w-full border animationTimeline relative rounded-md p-2">
+              <label className="border flex  animationTimeline justify-center items-center gap-2 rounded-sm absolute -top-3 px-3 text-sm bg-white">
                 <FaMessage className="text-gray-500 text-sm" />
                 <span>Your Message</span>
               </label>
               <textarea
                 name="message"
                 placeholder="Your Message"
-                className="w-full h-[70px] mt-2 outline-0 border-0"
+                className="w-full h-[70px] animationTimeline mt-2 outline-0 border-0"
                 required
               />
             </div>
 
             <button
               type="submit"
-              className="w-full bg-blue-500 JosefinSans text-white py-2 px-4 rounded-md flex justify-center items-center space-x-2 hover:bg-blue-600 transition"
+              className="w-full bg-blue-500 animationTimeline JosefinSans text-white py-2 px-4 rounded-md flex justify-center items-center space-x-2 hover:bg-blue-600 transition"
             >
-              <span className="JosefinSans">Send Message</span>
+              <span className="JosefinSans animationTimeline">
+                Send Message
+              </span>
               <FiSend />
             </button>
           </form>

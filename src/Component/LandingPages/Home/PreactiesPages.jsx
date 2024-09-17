@@ -32,7 +32,7 @@ export default function PreactiesPages() {
     },
   ];
   return (
-    <div className="w-full py-10 ">
+    <div className="w-full animationTimeline py-10 ">
       <h2 className="text-2xl animationTimeline JosefinSans font-bold text-center text-gray-800 mb-8">
         My Preactiesing Pages
       </h2>

@@ -38,12 +38,12 @@ const EducationJourney = () => {
   ];
 
   return (
-    <div className="min-h-screen p-5">
-      <div className="max-w-4xl mx-auto  rounded-lg p-8">
+    <div className="min-h-screen animationTimeline p-5">
+      <div className="max-w-4xl mx-auto  animationTimeline rounded-lg p-8">
         <h1 className="text-3xl animationTimeline font-bold text-center mb-10">
           My Educational Journey
         </h1>
-        <div className="relative">
+        <div className="relative animationTimeline">
           {timelineData.map((item, index) => (
             <div
               key={index}
@@ -54,20 +54,22 @@ const EducationJourney = () => {
               }`}
             >
               <div className="w-full animationTimeline lg:w-1/2 mb-4 lg:mb-0">
-                <div className="bg-gray-200 p-4 animationTimeline rounded-lg shadow-lg hover:bg-primary hover:text-white transition-all duration-300 ease-in-out">
-                  <h2 className="text-xl font-semibold">
+                <div className="bg-gray-200 p-4 animationTimeline rounded-lg shadow-lg hover:bg-indigo-300 hover:text-gray-700 transition-all duration-300 ease-in-out">
+                  <h2 className="text-xl animationTimeline font-semibold">
                     {item.title} - {item.year}
                   </h2>
-                  <p className="text-gray-600">{item.institution}</p>
+                  <p className="text-gray-600 animationTimeline">
+                    {item.institution}
+                  </p>
                 </div>
               </div>
-              <div className="w-full lg:w-1/12 flex justify-center mb-4 lg:mb-0">
+              <div className="w-full lg:w-1/12 animationTimeline flex justify-center mb-4 lg:mb-0">
                 <div className="relative">
-                  <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
+                  <div className="w-10 h-10 animationTimeline rounded-full bg-primary flex items-center justify-center">
                     {item.icon}
                   </div>
                   {index !== timelineData.length - 1 && (
-                    <div className="w-1 bg-primary h-20 mx-auto hidden lg:block"></div>
+                    <div className="w-1 bg-primary animationTimeline h-20 mx-auto hidden lg:block"></div>
                   )}
                 </div>
               </div>

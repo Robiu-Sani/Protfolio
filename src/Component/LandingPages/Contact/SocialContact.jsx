@@ -36,12 +36,12 @@ const SocialContact = () => {
   ];
 
   return (
-    <section className="py-12 ">
-      <div className="container mx-auto px-6 lg:px-8">
+    <section className="py-12 animationTimeline">
+      <div className="container animationTimeline mx-auto px-6 lg:px-8">
         <h1 className="text-4xl animationTimeline font-bold text-center text-gray-800 mb-8">
           Connect with Me
         </h1>
-        <div className="flex animationTimeline justify-center gap-8">
+        <div className="flex flex-wrap animationTimeline justify-center gap-8">
           {socialLinks.map((link, index) => (
             <a
               key={index}
