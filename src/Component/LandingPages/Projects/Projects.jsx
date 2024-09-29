@@ -6,11 +6,8 @@ export default function Projects() {
   return (
     <div className="w-full animationTimeline">
       <ProjectsBanner></ProjectsBanner>
-      <div className="container animationTimeline mx-auto pb-7 flex justify-center items-center ">
-        <div
-          role="tablist"
-          className="tabs animationTimeline w-full tabs-lifted"
-        >
+      <div className="container  mx-auto pb-7 flex justify-center items-center ">
+        <div role="tablist" className="tabs  w-full tabs-lifted">
           <input
             type="radio"
             name="my_tabs_2"

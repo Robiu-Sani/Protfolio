@@ -21,9 +21,73 @@ import image19 from "../../../images/b19.png";
 import image20 from "../../../images/b20.png";
 import image21 from "../../../images/b21.png";
 import image22 from "../../../images/b22.png";
+import image23 from "../../../images/b23.png";
+import image24 from "../../../images/b24.png";
+import image25 from "../../../images/b25.png";
+import image26 from "../../../images/b26.png";
+import image27 from "../../../images/b27.png";
+import image28 from "../../../images/b28.png";
+import image29 from "../../../images/b29.png";
+import image30 from "../../../images/b30.png";
+import image31 from "../../../images/b31.png";
 
 export default function PreactiesProject() {
   const data = [
+    {
+      name: "Social-Selection-dropdown",
+      image: image29,
+      LiveLink: "https://robiu-sani.github.io/Social-Selection-dropdown/",
+      GitHub: "https://github.com/Robiu-Sani/Social-Selection-dropdown",
+    },
+    {
+      name: "Enalog-Clock",
+      image: image30,
+      LiveLink: "https://robiu-sani.github.io/Enalog-Clock/",
+      GitHub: "https://github.com/Robiu-Sani/Enalog-Clock",
+    },
+    {
+      name: "digital-clock",
+      image: image31,
+      LiveLink: "https://robiu-sani.github.io/digital-clock/",
+      GitHub: "https://github.com/Robiu-Sani/digital-clock",
+    },
+    {
+      name: "Css-hover-typing",
+      image: image23,
+      LiveLink: "https://robiu-sani.github.io/Css-hover-typing/",
+      GitHub: "https://github.com/Robiu-Sani/Css-hover-typing",
+    },
+    {
+      name: "Animetion-in-test",
+      image: image24,
+      LiveLink: "https://robiu-sani.github.io/Animetion-in-test/",
+      GitHub: "https://github.com/Robiu-Sani/Animetion-in-test",
+    },
+    {
+      name: "Loader 4",
+      image: image25,
+      LiveLink: "https://robiu-sani.github.io/loader-4/",
+      GitHub: "https://github.com/Robiu-Sani/loader-4",
+    },
+    {
+      name: "JS-ImageUplading",
+      image: image26,
+      LiveLink: "https://beamish-marshmallow-9dfde9.netlify.app/",
+      GitHub: "https://github.com/Robiu-Sani/JS-ImageUplading",
+    },
+    {
+      name: "Cricket-Game",
+      image: image27,
+      LiveLink: "https://golden-pavlova-8a3e2e.netlify.app/",
+      GitHub: "https://github.com/Robiu-Sani/Js-Cricket-Game",
+    },
+    {
+      name: "Carousel",
+      image: image28,
+      LiveLink: "https://robiu-sani.github.io/Slider/",
+      GitHub: "https://github.com/Robiu-Sani/Slider",
+    },
+
     {
       name: "Loader 3",
       image: image1,

@@ -56,7 +56,7 @@ export default function Banner() {
         <img
           src={image}
           alt="banner image"
-          className="max-w-[350px] animationTimeline z-10 skew"
+          className="max-w-[350px]  z-10 skew"
         />
         <div className="absolute animationTimeline bg-gray-200 border-[15px] border-white w-[350px] sm:w-[350px] h-[350px] sm:h-[350px] rounded-full"></div>
       </div>

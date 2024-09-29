@@ -55,22 +55,22 @@ export default function ProjectCard(props) {
           ))}
         </div>
         <hr />
-        <div className="w-full mt-2 flex animationTimeline justify-between items-center">
+        <div className="w-full mt-2 flex  justify-between items-center">
           <a
             href={gitHub}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center animationTimeline text-sm text-blue-600 hover:text-blue-800"
+            className="flex items-center  text-sm text-blue-600 hover:text-blue-800"
           >
-            <FaGithub className="mr-2 animationTimeline" /> GitHub Repo
+            <FaGithub className="mr-2 " /> GitHub Repo
           </a>
           <a
             href={liveLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center animationTimeline text-sm text-green-600 hover:text-green-800"
+            className="flex items-center  text-sm text-green-600 hover:text-green-800"
           >
-            <FaExternalLinkAlt className="mr-2 animationTimeline" /> Live Link
+            <FaExternalLinkAlt className="mr-2 " /> Live Link
           </a>
         </div>
       </div>
